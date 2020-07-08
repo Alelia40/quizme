@@ -2,6 +2,7 @@
 
 # dependencies
 /quizme_frontend/node_modules
+/quizme_backend/node_modules
 /.pnp
 .pnp.js
 

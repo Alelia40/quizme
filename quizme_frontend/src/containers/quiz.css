@@ -24,6 +24,8 @@
     align-items: center;
 
     height: 80%;
+
+    
 }
 
 #quizBox button {
@@ -38,10 +40,15 @@
 
     background-color: white;
     border-radius: 2px;
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 10px 10px 10px black;
+    color: #393e46;
 
     flex-basis: 70%; /*height alongflex axis*/
     width:80%;
+}
+
+#question h4 {
+    color: #393e46;
 }
 
 #question #answer {

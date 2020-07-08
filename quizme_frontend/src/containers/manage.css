@@ -5,3 +5,39 @@
     padding: 20px;
     text-align: center;
 }
+
+#quiz-select-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px black;
+    color: #393e46;;
+
+    height: 80%;
+
+    overflow-y: auto;
+}
+
+#quiz-select-box li{
+    list-style: none;
+}
+
+.quiz-item {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    width:90%;
+    flex-basis: 20%;
+
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}

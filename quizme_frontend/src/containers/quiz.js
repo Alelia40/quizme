@@ -19,6 +19,7 @@ function Quiz(props) {
     const handleDeleteShow = () => setDeleteShow(true);
 
     /**
+     * NEED TO ADD FROM VALIDATION FOR THIS MODAL
      * @brief function that handles button press to add a question
      */
     function handleAddQuestion() {
